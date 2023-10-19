@@ -124,7 +124,7 @@
 */
     .logo {
         display: block;
-        max-height: 410px;
+        max-height: 250px;
         max-width: 80%;
     }
 
@@ -175,10 +175,10 @@
     }
  
     .socialLogo {
-        height: 25px;
+        max-width: 40px;
         margin-right: 30px;
         margin-top: 30px;
-        display: inline-block;
+        text-decoration: none;
 
     }
 
@@ -187,6 +187,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 25px;
+    text-decoration: none;
     }
 
     /* .est {
@@ -204,6 +205,20 @@
 
     .disDiv {
         margin-top: 60px;
+    }
+
+    .video {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .videoDiv {
+        width: 800px;
+        max-width: 85%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 	</style>
@@ -224,8 +239,14 @@
 
 <div class="center">
     <img class="center logo" src="https://media.discordapp.net/attachments/1025397961489924168/1162041302507077772/TYPE__ICON_TRANS.png?ex=653a7e4c&is=6528094c&hm=ebefb2b1eaf433bde238a42bd18d1ede5c8e641795c7368352554cbad8446bcc&=&width=701&height=701" alt="Studio Surge LLC Logo">
-</a>
 </div>
+
+<div class="videoDiv">
+    <video class="video" controls preload="metadata" onloadstart="this.volume=0.2" poster="https://media.discordapp.net/attachments/1025397961489924168/1162041482539192341/TYPE_TRANS.png?ex=653a7e77&is=65280977&hm=c6e43be04df16b5e6df3139c2a38190bcf2542ea14d5dd9142f11382598ca690&=&width=701&height=701">
+        <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
+    </video>
+</div>
+
 <!--
 <div>
     <p><a href="https://discord.gg/EbQY7p4K" class="discord">Join the Beta Testing</a></p>
@@ -241,6 +262,7 @@
 <h2 class="listHeader">Be FULLY BOOKED in 90 DAYS</h2>
 <hr class="smallBr">
 <div class="list">
+    <!-- <img src="https://www.psdstamps.com/wp-content/uploads/2020/02/fully-booked-stamp-png.png" height="200px"> -->
     <p>That's right, you didn't read it wrong. 100% guaranteed.</p>
     <p>And if we can't live up to that claim, you can get your money back + $500</p>
     <p>So either your studio is always booked to the max, or you leave with an extra $500 in your pocket</p>
@@ -266,6 +288,9 @@
         </a>
         <a href="mailto:studiosurgellc@gmail.com?" target="_blank" rel="noopener noreferrer">
             <img class="socialLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gmail_Icon_%282013-2020%29.svg/2560px-Gmail_Icon_%282013-2020%29.svg.png">
+        </a>
+        <a href="https://instagram.com/studiosurgellc" target="_blank" rel="noopener noreferrer">
+            <img class="socialLogo" src="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
         </a>
     </footer>
     
