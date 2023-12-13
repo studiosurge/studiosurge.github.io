@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.center-div {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #001329;
+    z-index: 1;
+    width: 100%;
+    min-height: 10%;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+
+
+  .navbar-new {
+    width: 100%;
+    background-color: #0058bc;
+    display: block;
+    z-index: 1;
+
+  }
+  
+  /* Navbar links */
+  .head-link {
+    float: inline-start;
+    display: flexbox;
+    flex-direction: column;
+    color: white;
+    background-color: #001329;
+    text-align: center;
+    padding: 0.8rem;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+ /* .sticky + .content {
+    padding-top: 60px;
+  }
+*/
+  .bar-logo {
+    max-width: 50px;
+    position: relative;
+    margin: 0 31%;
+    background-color: #001329;
+    padding-top: 5px;
+  }
+
+  #navbar .logo-text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 14px;
+    background-color: #001329;
+    color: white;
+    position: absolute;
+    left: 47.3%;
+  }
+
+  .embed {
+    margin: auto;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 3rem;
+    padding: 25px;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    border-radius: 35px;
+    transition: 0.3s;
+  }
+
+  .embed:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+  }
+
+  @media(max-width: 1070px) {
+    .embed {
+        width: 60%;
+}
+    
+}
+
+@media(max-width: 870px) {
+    .embed {
+        width: 70%;
+}
+
+
+@media(max-width: 525px) {
+    .embed {
+        width: 80%;
+}
+    
+}
+    
+}
+
+
+
+
+
+  .highlight {
+    color: #0058bc;
+    font-weight: 999;
+  }
+
+  .above-form-header {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .center-desc {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 1.2rem;
+  }
+
+  .logo-div {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #001329;
+    margin: auto;
+    margin-top: 0.75rem;
+    align-content: center;
+  }
+
+  .bar-logo-new {
+    max-width: 70px;
+    overflow: hidden;
+    background-color: #001329;
+  }
+
+  .logo-text-new {
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+    margin-left: 0.5rem;
+    color: white;
+    background-color: #001329;
+  }
+
+
+  .no-style {
+    text-decoration: none;
+  }
+
+
+
+  footer {
+    background: #0058bc;
+    color: white;
+    padding: 3em;
+    margin-top: auto;
+    border-radius: 0rem 0rem 0 0;
+  }
+
+  .footer-col {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0058bc;
+    padding: 0 15px;
+
+  }
+
+  ul {
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  .list {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #0058bc;
+  }
+
+  .list-item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #0058bc;
+    text-decoration: none;
+  }
+
+  .list-a {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #0058bc;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-logo {
+    max-width: 7rem;
+    background-color: #0058bc;
+  }
+
+  .row {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0058bc;
+  }
+
+  .container {
+    width: 100%;
+    background-color: #0058bc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer ul li a {
+    transition: 0.3s;
+  }
+
+  .footer ul li a:hover{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+
+
+  @media(max-width: 831px) {
+    .list-item {
+        margin-top: -2rem;
+}
+    
+}
