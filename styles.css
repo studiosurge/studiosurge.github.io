@@ -344,6 +344,13 @@ html, body {
     background-color: #0058bc;
   }
 
+  .footer-logo-top {
+    display: flex;
+    max-width: 7rem;
+    background-color: #0058bc;
+    margin: 0 auto;
+  }
+
   .row {
     max-width: 100%;
     display: flex;
@@ -371,6 +378,35 @@ html, body {
     text-decoration: overline;
   }
 
+
+  .ft-con {
+    background-color: #0058bc;
+    margin-bottom: -2.5em;
+  }
+
+  .footer-text {
+    background-color: #0058bc;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .footer-text-terms {
+    background-color: #0058bc;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    color: #001329;
+  }
+
+  .footer-text-link {
+    background-color: #0058bc;
+    text-decoration:none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    color: #001329;
+  }
 
   @media(max-width: 831px) {
     .list-item {
